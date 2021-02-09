@@ -9,8 +9,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="#FF5722"
+        android:layout_height="99dp"
+        android:background="#FFDA22"
         android:orientation="vertical">
 
     </LinearLayout>
@@ -43,109 +43,119 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
                     android:layout_gravity="center"
-                    android:layout_margin="16dp"
-                    android:src="@drawable/pages"/>
+                    android:layout_margin="20dp"
+                    android:onClick="produkbarang"
+                    android:src="@drawable/pages" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
                     android:text="Produk Barang"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textSize="30dp"
+                    android:textSize="20dp"
                     android:textStyle="bold">
 
                 </TextView>
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
                     android:layout_gravity="center"
                     android:layout_margin="16dp"
-                    android:src="@drawable/reminders"/>
+                    android:onClick="pemberitahuan"
+                    android:src="@drawable/reminders" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
                     android:text="Pemberitahuan"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textSize="30dp"
+                    android:textSize="20dp"
                     android:textStyle="bold">
 
                 </TextView>
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
                     android:layout_gravity="center"
-                    android:layout_margin="16dp"
-                    android:src="@drawable/search"/>
+                    android:layout_margin="20dp"
+                    android:onClick="pencarianbarang"
+                    android:src="@drawable/search" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pencarian Barang"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:textSize="30dp"
+                    android:text="Pencarian Barang"
+                    android:textSize="20dp"
                     android:textStyle="bold">
 
                 </TextView>
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
                     android:layout_gravity="center"
-                    android:layout_margin="16dp"
-                    android:src="@drawable/pengaturan"/>
+                    android:layout_margin="20dp"
+                    android:src="@drawable/pengaturan"
+                    android:onClick="pengaturan"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Pengaturan"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:textSize="30dp"
+                    android:textSize="20dp"
                     android:textStyle="bold">
 
                 </TextView>
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
                     android:layout_gravity="center"
                     android:layout_margin="16dp"
-                    android:src="@drawable/shopping"/>
+                    android:src="@drawable/shopping"
+                    android:onClick="keranjang"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Keranjang"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:textSize="30dp"
+                    android:textSize="20dp"
                     android:textStyle="bold">
 
                 </TextView>
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
                     android:layout_gravity="center"
                     android:layout_margin="16dp"
-                    android:src="@drawable/streamingapp"/>
+                    android:src="@drawable/streamingapp"
+                    android:onClick="belanja"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Belanja"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:textSize="30dp"
+                    android:textSize="20dp"
                     android:textStyle="bold">
 
                 </TextView>

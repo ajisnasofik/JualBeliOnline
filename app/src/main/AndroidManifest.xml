@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".BelanjaActivity"></activity>
+        <activity android:name=".PencarianBarangActivity" />
+        <activity android:name=".KeranjangActivity" />
+        <activity android:name=".PemberitahuanActivity" />
+        <activity android:name=".PengaturanActivity" />
+        <activity android:name=".ProdukBarangActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
